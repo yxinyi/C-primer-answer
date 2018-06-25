@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="std::vector&lt;*&gt;">
+        <DisplayString>{{size={num}}}</DisplayString>
+        <Expand>
+            <Item Name="[size]" ExcludeView="simple">num</Item>
+            <ArrayItems>
+                <Size>num</Size>
+                <ValuePointer>ptr</ValuePointer>
+            </ArrayItems>
+        </Expand>
+    </Type>
+</AutoVisualizer>

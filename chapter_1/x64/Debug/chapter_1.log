@@ -1,0 +1,6 @@
+﻿  main.cpp
+f:\cppprimerlern\chapter_1\main.cpp(53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\cppprimerlern\chapter_1\main.cpp(55): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\cppprimerlern\chapter_1\main.cpp(113): warning C4814: “Debug::any”: 在 C++14 中，"constexpr" 将不表示“常量”；请考虑显式指定“常量”
+  chapter_1.vcxproj -> F:\CppPrimerLern\chapter_1\x64\Debug\chapter_1.exe
+  chapter_1.vcxproj -> F:\CppPrimerLern\chapter_1\x64\Debug\chapter_1.pdb (Full PDB)
